@@ -14,6 +14,10 @@ Nothing else fancy happens. However, note that the file being read is only a few
 
 Same as [`/`](#/) but uses a `Transform` to convert all the text to uppercase. This also tests transmitting the file as multiple chunks by setting the `highWaterMark` to 3 bytes (which ends up being 3 characters at a time).
 
+### `/with-transform/async`
+
+Same as [`/with-transform`](#/with-transform) but promisifies the `pipeline` function and `await`s its completion before ending the response.
+
 ## Notes
 
 ### `BufferEncoding`
