@@ -1,6 +1,6 @@
 # Stream Responses from Express Server
 
-A proof of concept to continuously stream data from an Express server response to an HTTP client.
+A proof of concept to use Node's streams to transfer data from an Express server response to an HTTP client.
 
 ## Endpoints
 

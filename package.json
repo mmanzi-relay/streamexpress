@@ -1,7 +1,7 @@
 {
   "name": "streamexpress",
   "version": "1.0.0",
-  "description": "A proof of concept to continuosly stream data from an Express server response to an HTTP client.",
+  "description": "A proof of concept to use Node's streams to transfer data from an Express server response to an HTTP client.",
   "main": "index.ts",
   "scripts": {
     "start": "tsc && node ./dist/index.js"
